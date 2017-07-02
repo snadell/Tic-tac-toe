@@ -4,7 +4,7 @@
 def ask_player(mark):
     ''' Asks player where to place X or O mark, checks validity '''
     global board
-    req = 'Choose where to place your: ' 
+    req = 'Choose where to place your: ' + mark
     while True:
         try:
             choice = int(raw_input(req))
@@ -14,6 +14,8 @@ def ask_player(mark):
 
         if choice not in range(1,10):
             print("Sorry, please input a number between 1-9.")
+            if board[choice] == " ":
+            board[choice] = mark
             break
 
         else:
