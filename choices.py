@@ -14,10 +14,11 @@ def ask_player(mark):
 
         if choice not in range(1,10):
             print("Sorry, please input a number between 1-9.")
-            if board[choice] == " ":
+            continue
+
+        if board[choice] == " ":
             board[choice] = mark
             break
-
         else:
             print "That space isn't empty!"
             continue

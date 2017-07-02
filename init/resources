@@ -1,0 +1,12 @@
+Used Python 2 version in Mac os
+For executing/launching used Jupyter notebook
+To run Jupyter notebook need to download Anaconda2 4.4.0 server
+Use the following installation steps:
+
+Download Anaconda. We recommend downloading Anaconda’s latest Python 3 version (currently Python 3.5).
+
+Install the version of Anaconda which you downloaded, following the instructions on the download page.
+
+Congratulations, you have installed Jupyter Notebook. To run the notebook:
+
+Type- jupyter notebook
