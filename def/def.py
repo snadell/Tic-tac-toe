@@ -18,6 +18,11 @@ def play_game():
         print announce
         if game_state == False:
             break
+        # Player O turn
+        game_state,announce = player_choice(O)
+        print announce
+        if game_state == False:
+            break
             
         
     
