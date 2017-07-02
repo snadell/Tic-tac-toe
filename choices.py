@@ -34,6 +34,9 @@ def player_choice(mark):
     #Check for player win
     if win_check(board,mark):
         clear_output()
+        display_board()
+        announce = mark +" wins! Congratulations"
+        game_state = False
         
     
     #Show board
