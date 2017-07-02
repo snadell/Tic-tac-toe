@@ -2,6 +2,11 @@
 # Specifically for the iPython Notebook environment for clearing output.
 from __future__ import print_function 
 from IPython.display import clear_output
+# Global variables
+board = [' '] * 10
+game_state = True
+announce = ''
+# Note: Game will ignore the 0 index
 def reset_board():
     global board,game_state
     board = [' '] * 10
